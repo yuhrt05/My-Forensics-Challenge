@@ -14,7 +14,7 @@ Forensic investigators suspect a Fileless Ransomware attack—a ghost in the mac
 
 ### **Questions**
 
-**Q1.** Name and PID of the process used to hide the malware? (e.g., `svchost.exe:1234`)
+**Q1.** Identify the name and PID of the legitimate Windows process that the attacker compromised to hide the malicious payload? (e.g., `svchost.exe:1234`)
 
 **Q2.** IP and Port of the attacker's C2 server? (e.g., `10.0.0.1:4444`)
 
@@ -22,10 +22,12 @@ Forensic investigators suspect a Fileless Ransomware attack—a ghost in the mac
 
 **Q4.** Name of the C2 framework used? `lowercase`
 
+**Q6.** What is the MD5 hash of the original ransomware executable recovered from the memory of the infected process? `lowercase`
+
 **Q5.** Programming language used for the Ransomware payload? `lowercase`
 
-**Q6.** The secret Key used to encrypt the files? `plaintext`
+**Q7.** The secret Key used to encrypt the files? `plaintext`
 
-**Q7.** Decrypt file to find the flag: `FLAG{...}`
+**Q8.** Decrypt file to find the flag: `FLAG{...}`
 
-**Final Flag Format:** `DFIR{md5sum(Q1_Q2_Q3_Q4_Q5_Q6_Q7)}`
+**Final Flag Format:** `DFIR{Q1_Q2_Q3_Q4_Q5_Q6_Q7_Q8}`
