@@ -22,9 +22,9 @@ Forensic investigators suspect a Fileless Ransomware attack—a ghost in the mac
 
 **Q4.** Name of the C2 framework used? `lowercase`
 
-**Q6.** What is the MD5 hash of the original ransomware executable recovered from the memory of the infected process? `lowercase`
+**Q5.** What is the MD5 hash of the original ransomware executable recovered from the memory of the infected process? `lowercase`
 
-**Q5.** Programming language used for the Ransomware payload? `lowercase`
+**Q6.** Programming language used for the Ransomware payload? `lowercase`
 
 **Q7.** The secret Key used to encrypt the files? `plaintext`
 
